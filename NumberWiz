@@ -6,3 +6,12 @@ Debug.Log("hello"); these print to the console
 
 integer variables are called int, then we name them starting with a lowercase letter
 ex: int myAgeIs
+
+
+
+//restting a variable to a new value
+maxGuess = guess;
+
+//recalculating guess average based on new number
+guess= (minGuess + maxGuess) / 2;
+
