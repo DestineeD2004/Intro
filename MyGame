@@ -1,0 +1,105 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class MyGame : MonoBehaviour
+{
+    //Start is called before the first frame update
+    //THIS IS THE FIRST CHOICE
+    //Play as Rachel 
+    //THIS IS THE SECOND CHOOSE: 
+    //Or he can go live on campus where he needs to pay for a lot of the rent plus his food.
+    //Or player will chose if they want him to live on campus (press C)
+    void Start()
+    {
+        Debug.Log("Hello welcome to the game, ");
+        Debug.Log("This game is about two collage students that come from completely different backgrounds but have been online besties for a couple years");
+        Debug.Log("You have to pick between playing Rachel or Playing Chanler");
+        Debug.Log("If you wish to play as Chandler (press c)");
+        Debug.Log("If you wish to play as Rachel (press r)");
+    }
+   
+    void Update()
+    {
+            if (Input.GetKeyDown("c"))
+            {
+                Debug.Log("Congradulations you chose to play as Chanler");
+                Debug.Log("Now that you have chose to play as Chanler you have to chose to either live with Rachel or live by yourself");
+                Debug.Log("If you want to live with Rachel (press up)");
+                Debug.Log("If you want to live by yourself (press down");
+        }
+            if (Input.GetKeyDown("up"))
+        {
+            Debug.Log("Yay you chose to live with Rachel your long time friend");
+            Debug.Log("Your at her appartment when you hear a scream the door flings open Rachel rushes out and screams again because she didn't now it was you ");
+            Debug.Log("When she relizes it is you she gives you a hug");
+            Debug.Log("Do you give her a hug or do you push her away");
+            Debug.Log("If you want to push her awake (press P");
+            Debug.Log("Give Rachel a hug (press g)");
+            }
+        
+            if (Input.GetKeyDown("p"))
+        {
+            Debug.Log("Ouch you made Rachel fall down, she's now mad at you");
+            Debug.Log("Rachel stands up and says let me show you where you will be staying");
+            Debug.Log("You feel bad for pushing her so you want to make her feel better");
+            Debug.Log("You can either suprise her with a hug or you can not do anything");
+            Debug.Log("If you want to give her a suprise hug (press S)");
+            Debug.Log("To leave her alone press n")
+            }
+        
+        if (Input.GetKeyDown("s"))
+        {
+            Debug.Log("You tried to give Rachel a hug and she recieved it then pushed you down the stairs");
+            Debug.Log("Ouch that really hurt Rachel pushed you down the stairs......... You didn't survive the fall");
+            Debug.Log("You died please try again");
+        }
+            if (Input.GetKeyDown("g"))
+            {
+                Debug.Log("You picked to give Rachel a hug");
+                Debug.Log("Rachel is happy now and she shows you to where your room is she tells you to make yourself at home");
+                Debug.Log("You set up your room the way you like it and then you come out of the room to find Rachel sitting on the couch watching Tv");
+                Debug.Log("Do you join her on the couch or do you sit in the kitchen and watch the tv");
+                Debug.Log("To sit on the couch (press e)");
+                Debug.Log("To sit in the kitchen (press K)");
+            }
+            if (Input.GetKeyDown("e"))
+            {
+                Debug.Log("You chose to sit on the couch Rachel moves over and askes if you want something to eat");
+                Debug.Log("You tell Rachel that you want something to eat she gets up and gives you something to eat");
+                Debug.Log("She goes and makes you some spanish rice with chicken");
+                Debug.Log("You tell her thank you and then you start eating it");
+                Debug.Log("Shortly after you don't fell so well so you go lay down for a litle bit");
+                Debug.Log("When you wake up from your nap you see Rachel on the balcony and you sneek out there and try to sare her");
+                Debug.Log("But you got right behind her read to scare her when she turns around and you scre her so bad that she pushes you off");
+                Debug.Log("You fall and you get hurt really bad");
+                Debug.Log("You didn't survive being pushed over the balcony");
+                Debug.Log("You died please try again");
+            }
+
+            if (Input.GetKeyDown("down"))
+            {
+                Debug.Log("Congradulations you choose to live by yourself");
+                Debug.Log("Now that you have choose to live by yourself you have to find a appartment");
+                Debug.Log("You have found a appartment that has everything you need so you buy it");
+                Debug.Log("At this point you are all settled in and you want to show rachel your apprtment but before that you should proably go to the store for food");
+                Debug.Log("Do you want to get food now or invite Rachel over");
+                Debug.Log("To invite Rachel over (Press I) or to go to the Store (press S)");
+            }
+            if (Input.GetKeyDown("i"))
+            {
+                Debug.Log("You invite rachel over so she comes over and you show her around");
+                Debug.Log("Rachel and you hangout for like two hiurs just chating it up and talking aout all your memories together");
+                Debug.Log("You are tired and you want Rachel to go home");
+                Debug.Log("You ask Rachel to go home because you are tired but she says well I don't want to go home");
+                Debug.Log("Rachel starts throwing thinks at you and you can't get her to stop so you have to call the police");
+                Debug.Log("You call the cops and then they come and get Rachel and take her to the police station");
+                Debug.Log("You go to pick Rachel up the day after but she is mad and tells you to leave her alone and never talk to her again");
+                Debug.Log("So you decide to sell your apartment and move back home");
+            }
+            if (Input.GetKeyDown("r"))
+            {
+                Debug.Log("Congrationlations you are plaing as Rachel");
+                Debug.Log("Rachel is now ");
+            }
+        }
+    }
